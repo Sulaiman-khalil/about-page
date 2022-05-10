@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+
+  .container {
+    margin-top: 30vh;
+    text-align: center;
+    color: rgb(222, 179, 245);
+  }
+
+  .info {
+    padding-top: 1%;
+    text-indent: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .icon {
+    fill: rgb(156, 158, 180);
+    width: 30px;
+    height: 30px;
+  }
+}
