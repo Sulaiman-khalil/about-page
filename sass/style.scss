@@ -23,12 +23,14 @@ body {
   a {
     color: black;
     display: inline-block;
+
+    &:hover {
+      background-color: rgb(248, 110, 29);
+      transform: scale(1.1);
+    }
   }
-  a :hover {
-    background-color: rgb(248, 110, 29);
-    transform: scale(1.1);
-  }
-  svg {
-    background-color: rgb(88, 76, 76);
-  }
+}
+
+svg {
+  background-color: rgb(88, 76, 76);
 }
