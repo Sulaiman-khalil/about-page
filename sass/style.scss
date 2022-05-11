@@ -1,36 +1,36 @@
 body {
   background-color: black;
   font-family: "Roboto", sans-serif;
+}
+.container {
+  margin-top: 30vh;
+  text-align: center;
+  color: rgb(0, 255, 26);
+}
 
-  .container {
-    margin-top: 30vh;
-    text-align: center;
-    color: rgb(0, 255, 26);
-  }
+.info {
+  margin-top: 10px;
+  text-indent: 20px;
+  display: flex;
+  justify-content: center;
+  color: rgb(157, 76, 76);
+}
+.icon {
+  fill: rgb(185, 139, 14);
+  width: 30px;
+  height: 30px;
+}
+a {
+  color: black;
+  display: inline-block;
+  background-color: rgb(88, 76, 76);
 
-  .info {
-    margin-top: 10px;
-    text-indent: 20px;
-    display: flex;
-    justify-content: center;
-    color: rgb(157, 76, 76);
-  }
-  .icon {
-    fill: rgb(185, 139, 14);
-    width: 30px;
-    height: 30px;
-  }
-  a {
-    color: black;
-    display: inline-block;
-    background-color: rgb(88, 76, 76);
-
-    &:hover {
-      background-color: rgb(248, 110, 29);
-      transform: scale(1.1);
-    }
+  &:hover {
+    background-color: rgb(248, 110, 29);
+    transform: scale(1.1);
   }
 }
+
 svg {
   display: inline-block;
   vertical-align: middle;
